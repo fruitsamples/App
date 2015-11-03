@@ -1,0 +1,11 @@
+The CodeWarrior project here builds a CFM version of the sample app and the resulting
+app can be run on Mac OS 8/9 and X. The functionality that is only available on Mac OS
+X v.10.1 and later is conditionally available.
+
+At the moment, CodeWarrior 7.0 does not handle NIB files gracefully. For this 
+reason, the project does not contain anything in the Resources section so 
+the contents of the English.lproj folder was manually copied to the created 
+application bundle. In addition, CodeWarrior does not create the Info.plist file so the
+version of that file was copied manually into the Contents directory of application
+bundle.
+
